@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mailbox | Code by Seebi</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="userinfo">
+          <img src="https://picsum.photos/50" alt="" />
+          <div class="userdetails">
+            <h3>Seebie</h3>
+            <p>seebie@email.com</p>
+          </div>
+        </div>
+        <div class="topmenu">
+          <div class="menuitem active">
+            <span class="itembox">
+              <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+              <span class="text">
+                <h4>inbox</h4>
+              </span>
+            </span>
+            <span class="count">20</span>
+          </div>
+          <!-- ---------------------- -->
+          <div class="menuitem">
+            <span class="itembox">
+              <span class="icon"><i class="fa-solid fa-star"></i></span>
+              <span class="text">
+                <h4>flagged</h4>
+              </span>
+            </span>
+          </div>
+          <!-- ---------------------- -->
+          <div class="menuitem">
+            <span class="itembox">
+              <span class="icon"><i class="fa-solid fa-file"></i></span>
+              <span class="text">
+                <h4>draft</h4>
+              </span></span
+            >
+          </div>
+          <!-- ---------------------- -->
+          <div class="menuitem">
+            <span class="itembox">
+              <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
+              <span class="text">
+                <h4>sent</h4>
+              </span></span
+            >
+          </div>
+          <!-- ---------------------- -->
+          <div class="menuitem">
+            <span class="itembox">
+              <span class="icon"><i class="fa-solid fa-trash"></i></span>
+              <span class="text">
+                <h4>trash</h4>
+              </span></span
+            >
+          </div>
+          <!-- ---------------------- -->
+          <div class="menuitem">
+            <span class="itembox">
+              <span class="icon"><i class="fa-solid fa-cube"></i></span>
+              <span class="text">
+                <h4>more</h4>
+              </span></span
+            >
+          </div>
+          <!-- ---------------------- -->
+        </div>
+        <!-- ---------------------- -->
+        <div class="bottommenu">
+          <div class="top">
+            <h3>Folders</h3>
+            <button class="addbtn">add</button>
+          </div>
+          <div class="menuitem">
+            <span class="itembox">
+              <span class="icon"><i class="fa-solid fa-folder"></i></span>
+              <span class="text">
+                <h4>office</h4>
+              </span></span
+            >
+          </div>
+          <!-- ---------------------- -->
+          <div class="menuitem">
+            <span class="itembox">
+              <span class="icon"><i class="fa-solid fa-folder"></i></span>
+              <span class="text"> <h4>personal</h4> </span></span
+            >
+          </div>
+          <!-- ---------------------- -->
+          <div class="menuitem">
+            <span class="itembox">
+              <span class="icon"><i class="fa-solid fa-folder"></i></span>
+              <span class="text">
+                <h4>freelance</h4>
+              </span></span
+            >
+          </div>
+          <!-- ---------------------- -->
+        </div>
+        <!-- ---------------------- -->
+        <button class="bottombtn">compose</button>
+        <!-- ---------------------- -->
+      </div>
+      <div class="mails" id="mails">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="search" name="searchmail" id="" placeholder="Search" />
+        </div>
+        <!-- ---------------------- -->
+        <div class="mailboxes">
+          <div class="mailbox">
+            <div class="top">
+              <div class="userinfo">
+                <img src="https://picsum.photos/200" alt="" />
+                <div class="text">
+                  <h5>sam miller</h5>
+                  <p>portfolio</p>
+                </div>
+                <div class="posttime">
+                  <p class="day">yesterday</p>
+                  <p class="time">08:30 PM</p>
+                </div>
+              </div>
+            </div>
+            <div class="body">
+              <p class="message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                consequuntur obcaecati ea repellendus odio illum, ipsa id dicta
+                dolorum eligendi?
+              </p>
+              <div class="attach">
+                <a href="#"
+                  ><i class="fa-solid fa-paperclip"></i
+                  ><span class="attachtext">4 attachments</span></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div class="mailbox">
+            <div class="top">
+              <div class="userinfo">
+                <img src="https://picsum.photos/700" alt="" />
+                <div class="text">
+                  <h5>lily jones</h5>
+                  <p>invitations</p>
+                </div>
+                <div class="posttime">
+                  <p class="day">yesterday</p>
+                  <p class="time">10:30 PM</p>
+                </div>
+              </div>
+            </div>
+            <div class="body">
+              <p class="message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                consequuntur obcaecati ea repellendus odio illum, ipsa id dicta
+                dolorum eligendi?
+              </p>
+              <div class="attach">
+                <a href="#"
+                  ><i class="fa-solid fa-paperclip"></i
+                  ><span class="attachtext">2 attachments</span></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div class="mailbox">
+            <div class="top">
+              <div class="userinfo">
+                <img src="https://picsum.photos/800" alt="" />
+                <div class="text">
+                  <h5>smith</h5>
+                  <p>designer</p>
+                </div>
+                <div class="posttime">
+                  <p class="day">tuesday</p>
+                  <p class="time">02:30 PM</p>
+                </div>
+              </div>
+            </div>
+            <div class="body">
+              <p class="message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                consequuntur obcaecati ea repellendus odio illum, ipsa id dicta
+                dolorum eligendi?
+              </p>
+              <div class="attach">
+                <a href="#"
+                  ><i class="fa-solid fa-paperclip"></i
+                  ><span class="attachtext">5 attachments</span></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+        </div>
+        <!-- ---------------------- -->
+      </div>
+      <div class="openmail" id="openmail">
+        <div class="top">
+          <div class="icons">
+            <i class="fa-solid fa-reply"></i>
+            <i class="fa-solid fa-reply-all"></i>
+            <i class="fa-solid fa-folder"></i>
+            <i class="fa-solid fa-trash"></i>
+          </div>
+          <div class="nav">
+            <div class="pgs">
+              <p class="page">1</p>
+              <p class="slash">/</p>
+              <p class="pages">180</p>
+            </div>
+            <div class="navbtns">
+              <i class="fa-solid fa-chevron-left"></i>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="userinfo">
+          <img src="https://picsum.photos/200" alt="" />
+          <div class="userdetails">
+            <h3>sam miller</h3>
+            <p class="portfolio">portfolio</p>
+            <p class="mail">seebie@email.com</p>
+          </div>
+        </div>
+        <div class="posttime">
+          <p class="day">yesterday</p>
+          <p class="time">08:30 PM</p>
+        </div>
+        <div class="body">
+          <p class="message">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+            suscipit commodi officia provident consectetur, iusto ad aut, sint
+            repudiandae tempora quas, eligendi ea voluptatum saepe beatae
+            adipisci nobis obcaecati facere et dolorum! Totam eum rerum sunt
+            incidunt dolorum expedita exercitationem ratione quas quod fugit.
+            Odio tempora quasi officiis non rerum.
+          </p>
+          <div class="attach">
+            <a href="#"
+              ><i class="fa-solid fa-paperclip"></i
+              ><span class="attachtext">4 attachments</span></a
+            >
+          </div>
+          <div class="attachphotos">
+            <div class="smallimgs">
+              <img src="https://picsum.photos/200" alt="" />
+              <img src="https://picsum.photos/100" alt="" />
+            </div>
+            <img src="https://picsum.photos/300" alt="" />
+            <img src="https://picsum.photos/400" alt="" />
+          </div>
+          <div class="downloadbtn">
+            <button class="download">
+              <i class="fa-solid fa-download"></i>download
+            </button>
+            <p class="filesize">5.6mb total</p>
+          </div>
+          <div class="input">
+            <input
+              type="text"
+              name=""
+              id="message"
+              placeholder="type message..."
+            />
+            <i class="fa-solid fa-paperclip"></i>
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+          <div class="copyrights">
+            <span>&copy; copyright 2023</span>
+            <a href="#">seebicode</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
